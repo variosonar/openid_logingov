@@ -1,0 +1,11 @@
+name = D2D OpenID Connect LoginGov
+description = Integrates with OpenID Connect to allow sign in with LoginGov
+core = 7.x
+dependencies[] = openid_connect
+
+; Information added by Drupal.org packaging script on 2015-06-06
+version = "7.x-1.0-beta"
+core = "7.x"
+project = "openid_connect_logingov"
+datestamp = "1710842843"
+
