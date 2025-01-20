@@ -14,10 +14,3 @@ function openid_connect_logingov_ctools_plugin_directory($owner, $plugin_type) {
     return 'plugins/' . $plugin_type;
   }
 }
-
-// function openid_connect_logingov_form_alter(&$form, &$form_state, $form_id) {
-//   //watchdog('d1', $form_id);
-//   if ($form_id == 'openid_connect_admin_form' && isset($form['require_piv'])) {
-//     $form['userinfo_mapping']['#access'] = FALSE;
-//   }
-// }
